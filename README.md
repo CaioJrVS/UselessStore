@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+=======
+# Useless Store
+	Useless Store é um SPA (Single Page App) criado em React.js
+>>>>>>> parent of cb9f857... Update README.md
 
 In the project directory, you can run:
 
