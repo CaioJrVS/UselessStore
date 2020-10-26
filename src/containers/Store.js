@@ -2,11 +2,13 @@ import React , {Component}from 'react';
 
 import Aux from '../hoc/Aux'
 import Container from '../components/Container/Container'
+import classes from './Store.module.css';
 
 class Store extends Component{
     
     componentDidMount(){
-        const url = "https://fakestoreapi.com/products";
+        let response;
+        const url = "https://fakestoreapi.com/products?limit=2";
         fetch(url).then(res=>res.json()).then(json=>this.setState({products:json}));
     }
 
@@ -15,11 +17,11 @@ class Store extends Component{
     };
 
     render(){
-        console.log(this.state)
+        console.log('state',this.state)
         return(
-            <Aux>
-                <Container />
-            </Aux>
+            <div className={classes.Store}>
+                <Container products={this.state.products} />
+            </div>
         )
     }
 
