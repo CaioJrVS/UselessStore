@@ -8,7 +8,7 @@ class Store extends Component{
     
     componentDidMount(){
         let response;
-        const url = "https://fakestoreapi.com/products?limit=2";
+        const url = "https://fakestoreapi.com/products";
         fetch(url).then(res=>res.json()).then(json=>this.setState({products:json}));
     }
 
