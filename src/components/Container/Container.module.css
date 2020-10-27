@@ -3,7 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     max-width: 90vw;
     margin:auto;
