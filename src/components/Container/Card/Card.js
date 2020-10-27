@@ -10,10 +10,10 @@ const card = (props)=>{
             <div className={classes.CardImage}>
                 <img src={props.image} alt ={props.name}/>
             </div>
-            <div>
+            <div id = "price">
                 <p> {props.price}</p>
             </div>
-            <div>
+            <div id = "title">
                 <p>{props.name}</p>
             </div>
         </div>

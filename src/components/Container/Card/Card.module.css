@@ -12,6 +12,7 @@
     overflow: hidden;
     margin: 5px;
     margin-top:10px;
+    box-shadow: 9px gray;
 }
 
 .CardImage{
@@ -25,4 +26,8 @@
 .CardImage img{
     max-width: 100%;
     max-height: 100%;
+}
+
+.Card:hover{
+    cursor: pointer;
 }
