@@ -8,10 +8,12 @@ const card = (props)=>{
     return (
         <div className = {classes.Card}>
             <div className={classes.CardImage}>
-                <img src={props.image} alt ={props.name}/>
+                <div className={classes.Wrapper}>
+                    <img src={props.image} alt={props.name} />
+                </div>
             </div>
             <div className={classes.CardDescription}>
-                <div className = {classes.title}>
+                <div className = {classes.CardTitle}>
                     <p>{props.name}</p>
                 </div>
                 <div className = {classes.CardPrice}>
