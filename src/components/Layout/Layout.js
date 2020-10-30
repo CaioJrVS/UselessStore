@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Header from '../UI/Header/Header'
+import Toolbar from '../Navigation/Toolbar/Toolbar'
 import Footer from '../UI/Footer/Footer'
 import Aux from '../../hoc/Aux'
 
 const layout = (props)=>{
     return(
         <Aux>
-            <Header />
+            <Toolbar />
             <main>
                 {props.children}
             </main>
