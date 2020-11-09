@@ -18,7 +18,7 @@ javascrpt embedded with html.
 There's a lot of work I will develop but I think it's a great start
 
 
-###To-do:
+### To-do:
 - [x] host it on AWS
 - [ ] Finish Footer on the main page
 - [ ] Build User page
