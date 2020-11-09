@@ -11,11 +11,15 @@ const header = () => {
             <input className={classes.Search}type="search" placeholder="Search"/>
             <ul style={{color:"white"}}>
                 <nav>
-                    <li style={{ display: 'inline', padding: "14px 16px" }}><a>
-                        Carrinho</a>
+                    <li style={{ display: 'inline', padding: "14px 16px" }}>
+						<a>
+							Cart
+						</a>
                     </li>
                     <li style={{ display: 'inline', padding: "14px 16px" }}>
-                        <a>Usuario</a>
+						<a>
+							User
+						</a>
                     </li>
                 </nav>
             </ul>
