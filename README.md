@@ -13,11 +13,11 @@ There's a lot of work I will develop but I think it's a great start
 
 ###To-do:
 - [x] host it on AWS
-- [] Finish Footer on the main page
-- [] Build User page
-- [] Build Cart page
-- [] Change logo
-- [] Build Check-out
-- [] Create own API
+- [ ] Finish Footer on the main page
+- [ ] Build User page
+- [ ] Build Cart page
+- [ ] Change logo
+- [ ] Build Check-out
+- [ ] Create own API
 
 ![](uselessStore.gif)
