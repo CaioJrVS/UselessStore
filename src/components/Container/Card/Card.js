@@ -4,7 +4,6 @@ import classes from './Card.module.css'
 
 const card = (props)=>{
     
-    console.log(props)
     return (
         <div className = {classes.Card}>
             <div className={classes.CardImage}>
@@ -17,7 +16,7 @@ const card = (props)=>{
                     <p>{props.name}</p>
                 </div>
                 <div className = {classes.CardPrice}>
-                    <p> RS {props.price}</p>
+                    <p> $ {props.price}</p>
                 </div>
             </div>
         </div>

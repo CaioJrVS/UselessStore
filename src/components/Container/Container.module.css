@@ -8,3 +8,16 @@
     max-width: 90vw;
     margin:auto;
 }
+
+
+@media (min-width:950px){
+    .Container{
+        max-width: 70vw 
+    }
+}
+
+@media (min-width:1800px){
+    .Container{
+        max-width: 65vw;
+    }
+}
